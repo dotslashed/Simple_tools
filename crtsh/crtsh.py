@@ -1,3 +1,4 @@
+#simple script to find subdomains from crt.sh url
 import requests
 import sys
 
