@@ -1,4 +1,4 @@
-# simple script to find Content-length, type and server from response
+# simple script to find Content-length, type and server from response from a file of urls
 import requests
 import sys
 
