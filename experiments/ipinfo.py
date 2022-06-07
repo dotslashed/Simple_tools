@@ -5,7 +5,7 @@ import sys
 
 ip_add = sys.argv[1]
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0'}   # required browser user-agent else IP is blocked
 
 if '-h' in sys.argv[1] or '--h' in sys.argv[1] or '--help' in sys.argv[1] or '-help' in sys.argv[1]:
     sys.stdout.write('Usage: python3 ipinfo.py <ip_address_here>\nexiting..\n')
