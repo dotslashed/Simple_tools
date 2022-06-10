@@ -1,2 +1,2 @@
 # Tools
-Some noob tools
+Some simple scripts..
