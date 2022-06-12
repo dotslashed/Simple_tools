@@ -28,7 +28,6 @@ if '-h' in sys.argv[1] or '--h' in sys.argv[1] or '--help' in sys.argv[1] or '-h
     sys.stdout.write('Usage: python3 wayback.py <domainName>\nexiting..\n')
     sys.exit()
 
-else:
 
-	enumerate(domain_name)
+enumerate(domain_name)
 
