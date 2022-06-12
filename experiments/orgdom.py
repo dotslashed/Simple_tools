@@ -32,5 +32,5 @@ if '-h' in sys.argv[1] or '--h' in sys.argv[1] or '--help' in sys.argv[1] or '-h
     sys.exit()
 
 
-else:
-	main(org_name)
+
+main(org_name)
