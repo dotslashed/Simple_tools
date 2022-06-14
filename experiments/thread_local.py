@@ -1,9 +1,9 @@
+# Test script to learn threading Local object and how to make fast http requests and to learn the concurrent.futures objects
+
 import requests
 from requests import Session
 import threading
-import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor
-from threading import Thread,local
 import urllib3
 
 with open('domains.txt', 'r') as f:
