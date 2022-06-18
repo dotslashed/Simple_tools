@@ -33,7 +33,7 @@ try:
 			s.close()
 
 			with threading.Lock():                                   # prevents printing extra and prints on lines
-				print(f'port {port} is' + Fore.GREEN + ' open' + Fore.WHITE + '')
+				print(f'port {port} is' + Fore.GREEN + ' open' + Fore.WHITE + f' {target}:{port}')
 
 		except:
 			pass													# if any execptions occur pass it and continue scan
