@@ -1,5 +1,5 @@
 # A script to replicate tomnomnom's qsreplace tool. I tried this just for fun.
-# Usage: python3 urls.txt http://xxx.burpcollaborator.net
+# Usage: python3 psreplace.py urls.txt http://xxx.burpcollaborator.net
 # import requests
 import sys
 
