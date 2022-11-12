@@ -1,4 +1,5 @@
-# Script to find the non-common line of words/domains from two files.
+# Script to find the non-common line of words/domains from two files. Calculates the uncommon ones
+# python3 dupiboy.py old_file new_file
 # First file is a normal file, second file is the file with more items or from which we need to find the present/unpresent
 
 import sys
