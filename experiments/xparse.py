@@ -15,6 +15,6 @@ try:
 	list_el = parsed['ListBucketResult']['Contents']
 
 	for item in list_el:
-		print(url + item['Key'])
+		print(url + '/' + item['Key'])
 except IndexError:
 	print('Usage: python3 xparse.py <your url>\nUrl does not contain scheme.')
